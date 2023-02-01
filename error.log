@@ -1,0 +1,8 @@
+[2023-02-01T08:50:17.399114+01:00] Rizal\Logger\LevelTest.EMERGENCY: Emergency Level [] []
+[2023-02-01T08:50:17.402268+01:00] Rizal\Logger\LevelTest.ALERT: Alert Level [] []
+[2023-02-01T08:50:17.402492+01:00] Rizal\Logger\LevelTest.CRITICAL: Critical Level [] []
+[2023-02-01T08:50:56.553269+01:00] Rizal\Logger\LevelTest.EMERGENCY: Emergency Level [] []
+[2023-02-01T08:50:56.553742+01:00] Rizal\Logger\LevelTest.ALERT: Alert Level [] []
+[2023-02-01T08:50:56.553864+01:00] Rizal\Logger\LevelTest.CRITICAL: Critical Level [] []
+[2023-02-01T09:02:17.176771+01:00] Rizal\Logger\ContextTest.ERROR: Error Login {"username":"_Rizal"} []
+[2023-02-01T09:03:04.036334+01:00] Rizal\Logger\ContextTest.ERROR: Error Login {"username":"_Rizal"} []
