@@ -12,7 +12,8 @@ class LoggerTest extends TestCase
     {
         $logger = new Logger(LoggerTest::class);
         $logger->pushHandler(new StreamHandler(__DIR__ . "/../application.log"));
-        $logger->pushHandler(new StreamHandler("php://strderr"));
+        $logger->pushHandler(new StreamHandler("php://stderr"));
+        $logger->info("Log");
         self::assertNotNull($logger);
     }
 }
