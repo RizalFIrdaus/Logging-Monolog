@@ -1,1 +1,8 @@
 [2023-02-01T08:33:30.378429+01:00] Rizal\Logger\LoggerTest.INFO: Log [] []
+[2023-02-01T08:46:31.150506+01:00] Rizal\Logger\LoggerTest.INFO: Log [] []
+[2023-02-01T08:46:49.107444+01:00] Rizal\Logger\LevelTest.INFO: Info Level [] []
+[2023-02-01T08:46:49.121221+01:00] Rizal\Logger\LevelTest.EMERGENCY: Emergency Level [] []
+[2023-02-01T08:46:49.121347+01:00] Rizal\Logger\LevelTest.DEBUG: Debug Level [] []
+[2023-02-01T08:46:49.121416+01:00] Rizal\Logger\LevelTest.ALERT: Alert Level [] []
+[2023-02-01T08:46:49.121482+01:00] Rizal\Logger\LevelTest.CRITICAL: Critical Level [] []
+[2023-02-01T08:46:49.121552+01:00] Rizal\Logger\LevelTest.NOTICE: Notice Level [] []
