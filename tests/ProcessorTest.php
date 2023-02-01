@@ -25,7 +25,11 @@ class ProcessorTest extends TestCase
             ];
             return $record;
         });
-        $logger->info("Hello", ["test" => "test"]);
+        for ($i = 0; $i <= 1000; $i++) {
+            $logger->info("Reset:$i", ["test" => "test"]);
+            if ($i % 100 == 0)
+                $logger->reset();
+        }
         self::assertNotNull($logger);
     }
 }
